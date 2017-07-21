@@ -1,62 +1,135 @@
 <!DOCTYPE html>
 <html>
-<head> 
-<title></title>
-<style>
-div {
-	background-color: white;
-	width: 600px;
-	border: 1.5px;
-	padding: 40px;
-	margin: 10px;
-	font-family: Verdana;
-}
-div.box {
-	background-color: white
-	width: 600px;
-	border: 1.5px;
-	padding: 40px;
-	margin: 10px;
-}
-h1 {
-	font-size: 40px;
-	color: white;
-	text-align:center;
-	font-family: Verdana;
-
-}
-h2 {
-	font-size: 30px;
-	font-family: Verdana;
-}
-title {
-	font-size: 80px;
-	color: white;
-	text-align: center;
-}
-body {
-	background-color: lightgrey;
-}
-</style>
-</head>
+<script>
+window.alert("Hello, welcome to my webpage! :)");
+</script>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="styling.css">
 <body>
 
-<h1> W E L C O M E</h1>
-<center><img src="https://userscontent2.emaze.com/images/ed48e1e2-dd32-4620-ab44-81bc5d07e86a/59377fefe149ededcdf9524566d7c1c3.png"" alt="city buildings" style="Width:900px;height:1000"</center>
-<h2> about me :</h2>
-<div> Hello, my name is Jinelle! I was born on October 11, 2000 and I live in San Leandro. I'm a Senior in San Leandro High School. </div>
-<center><img src=IMG_4235.JPG style="width:700px;height:600" </center>
-<p>LIKES:</p>
-<ul>
-	<li>I like animals, especially dogs.</li>
-	<li>I like to eat, sleep, swim, play volleyball and go hiking.</li>
-	<li>I like to do DIYs and paint/draw. </li>
-	<li>I enjoy going to theme parks and beaches.</li>
-</ul>
-<p2>DISLIKES:</p2>
-<ul>
-	<li>I don't like spiders.</li>
-	<li>I don't like waking up early in the morning. </li>
-</ul>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
+    <a href="#home" class="w3-bar-item w3-button"><b>welcome to my page!</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a2 href="#projects" class="w3-bar-item w3-button">portfolio</a2>
+      <a2 href="#about" class="w3-bar-item w3-button">about me</a2>
+      <a2 href="#contact" class="w3-bar-item w3-button">contacts</a2>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="pexels-photo-92733.jpeg" alt="Architecture" width="1800" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 <b>jinelle campana</b></span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="portfolio">
+    <center><h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">portfolio</h3></center>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">shapes.py</div>
+        <img src="turtle.png" alt="project" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">scratch game</div>
+        <img src="scratch.png" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">circuit</div>
+        <img src="IMG_8285.JPG" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">recipe box!</div>
+        <img src="recipebox.png" alt="House" style="width:100%">
+      </div>
+  </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">robot</div>
+        <video style="Width:100%" controls>
+     <source src="IMG_8330.MOV.mov" type="video/mp4">
+     Your browser does not support the video tag.
+      </div>
+    </div>
+     
+
+
+   
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about me">
+    <center><h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">about me!</h3></center>
+    <center><p1> jinelle audrey campana</p1></center>
+    <center><img src=IMG_4235.JPG style="width:600px;height:500"></center>
+
+    <p>I was born on October 11, 2000 and I live in San Leandro. Senior in San Leandro High School. I'm a pretty shy and awkward person but, once you get to know me I wont be as awkward and shy. I have a dog named trixie, she's sometimes annoying but, i love her. I only have one brother and he's annoying.
+    </p>
+    <p>what i like:</p>
+
+  <li>ANIMALS, ESPECIALLY DOGS</li>
+  <li>HIKING</li>
+  <li>SWIMMING</li>
+  <li>DRAWING</li>
+  <li>I ENJOY GOING TO THEME PARK AND BEACHES</li>
+
+  <p>what i don't like:</p>
+
+  <li>SPIDERS</li>
+  <li>HAVING TO WAKE UP EARLY </li>
+  <li>JUMPSCARES</li>
+ <p>"FUN" FACT ABOUT MEE:</p>
+
+    <li>I WENT TO HAMILTON FOR FREE!! </li>
+
+
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact me">
+    <center><h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">contacts</center>
+    <p>have any questions? contact me!</p>
+    
+    <li><a href="#">snapchat: jinelle7850</a></li>
+    <li><a href="https://www.instagram.com/?hl=en">instagram</a></li>
+    <li><a href="#">email: jinelleaudrey@gmail.com</a></li>
+    <li><a href="https://www.linkedin.com/mynetwork/">my linkedin</a></li>
+  
+  </div>
+  
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<!-- Add Google Maps -->
+
+
+
 </body>
 </html>
+

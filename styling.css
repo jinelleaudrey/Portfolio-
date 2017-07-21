@@ -1,0 +1,75 @@
+@font-face {
+	font-family: "Perfume";
+	src: url('Perfume-Classic-Demo-Version.ttf'), url('Perfume-Classic-Demo-Version.otf');
+}
+@font-face {
+	font-family: "sunrise";
+	src: url('Sunrise International Demo.otf');
+}
+@font-face {
+	font-family: "breetty";
+	src: url('Breetty Regular.otf')
+}
+@font-face {
+	font-family: "moon";
+	src: url('Moon Flower Bold.ttf');
+
+}
+@font-face {
+	font-family: "better";
+	src: url('Better Together Spaced.ttf');
+}
+@font-face {
+	font-family: "mayton";
+	src: url('Mayton.ttf');
+}
+@font-face {
+	font-family: "cool";
+	src: url('coolvetica rg.ttf');
+}
+@font-face {
+	font-family: "hbm";
+	src: url('HBM-Serenity.ttf');
+}
+
+div {
+	color: black;
+	font-size: 50px;
+	font-family: hbm;
+}
+header {
+	color: black;
+	font-size: 50px;
+	font-family: moon;
+}
+body {
+	background-color: lightgrey;
+}
+h1 {
+	color: white;
+	font-size: 220px;
+	font-family: mayton;
+}
+h3 {
+	color: white;
+	font-size: 70px;
+	font-family: cool;
+}
+p {
+	color: black;
+	font-size: 50px;
+	font-family: moon;
+}
+li {
+	color: white;
+}
+a1 {
+	font-family: sunrise;
+}
+a {
+	font-family: moon;
+}
+p1 {
+	font-family: better;
+	font-size: 70px;
+}
